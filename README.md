@@ -5,6 +5,9 @@ Configuring and Managing Active Directory on Windows Server
 ## Overview
 This project sets up a lab environment using Oracle VirtualBox with Windows Server 2019 as the Domain Controller (DC) and Windows 10 as a client machine (Client10 VM). The goal is to simulate a corporate network with Active Directory, DHCP, and RAS/NAT for internet access.
 
+<img width="893" alt="image" src="https://github.com/user-attachments/assets/5cef804a-8448-4dd1-b405-715e4de4b2bd" />
+
+
 ## Infrastructure
 - **Public Internet → NIC → DC (Active Directory) → NIC → VMWare Network (Corporate Network) → NIC → Client10 VM (Employee Workstation)**
 - **Default Gateway:** The Domain Controller (DC) is the default gateway.
