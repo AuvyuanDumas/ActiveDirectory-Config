@@ -15,7 +15,15 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
   
 ![Screenshot 2024-11-27 144914](https://github.com/user-attachments/assets/dcfb6c27-b9f8-41f6-9b6e-ceca0c83c8ac)
 
+![Screenshot 2024-11-27 145034](https://github.com/user-attachments/assets/9496b7b2-bbe9-42f7-8db2-5a39ee0ae38a)
+
 ![Screenshot 2024-11-27 145901](https://github.com/user-attachments/assets/d5c58cf9-dfa9-4cf0-8f23-fd89c29f9f25)
+
+![Screenshot 2024-11-27 150122](https://github.com/user-attachments/assets/1367e662-369b-4f0b-8f32-fdcae2a5baca)
+
+![Screenshot 2024-11-27 150251](https://github.com/user-attachments/assets/3f9784f2-39c0-4fb4-b8f5-79499d631c1c)
+
+![Screenshot 2024-11-27 150350](https://github.com/user-attachments/assets/8ed9ef84-ce35-47c6-8a5e-c91648264e41)
 
 
 - **Network Adapter 1:** NAT (Internet access)
