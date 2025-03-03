@@ -1,6 +1,6 @@
 # ActiveDirectory-Config
 Configuring and Managing Active Directory on Windows Server
-# Active Directory Setup
+
 
 ## Overview
 This project sets up a lab environment using Oracle VirtualBox with Windows Server 2019 as the Domain Controller (DC) and Windows 10 as a client machine (Client10 VM). The goal is to simulate a corporate network with Active Directory, DHCP, and RAS/NAT for internet access.
