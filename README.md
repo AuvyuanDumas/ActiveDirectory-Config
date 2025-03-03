@@ -11,25 +11,25 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 ## Infrastructure
 - **Public Internet → NIC → DC (Active Directory) → NIC → VMWare Network (Corporate Network) → NIC → Client10 VM (Employee Workstation)**
 - **Default Gateway:** The Domain Controller (DC) is the default gateway.
-- 
+- **DC VM:**
+  
 ![Screenshot 2024-11-27 144914](https://github.com/user-attachments/assets/dcfb6c27-b9f8-41f6-9b6e-ceca0c83c8ac)
 
 ![Screenshot 2024-11-27 145901](https://github.com/user-attachments/assets/d5c58cf9-dfa9-4cf0-8f23-fd89c29f9f25)
 
-- **DC VM:**
-  
-![Screenshot 2024-11-27 145725](https://github.com/user-attachments/assets/ac998078-e36c-473f-9055-ae59daf2e3b7)
 
-  - **Network Adapter 1:** NAT (Internet access)
-  - **Network Adapter 2:** Internal Network (Connects to Client10 VM)
-  - **Internal NIC Settings:**
-    
- ![Screenshot 2024-11-27 151004](https://github.com/user-attachments/assets/e253816e-f7f6-414a-ad8e-4144968e18f1)
-
+- **Network Adapter 1:** NAT (Internet access)
+- **Network Adapter 2:** Internal Network (Connects to Client10 VM)
+- **Internal NIC Settings:**
     - **IP:** 172.16.0.1
     - **Subnet Mask:** 255.255.255.0
     - **DNS:** 127.0.0.1
-    
+      
+![Screenshot 2024-11-27 145725](https://github.com/user-attachments/assets/ac998078-e36c-473f-9055-ae59daf2e3b7)
+ 
+ ![Screenshot 2024-11-27 151004](https://github.com/user-attachments/assets/e253816e-f7f6-414a-ad8e-4144968e18f1)
+ 
+   
 - **Client10 VM:**
   - **Network Adapter 1:** Internal Network (Connects to DC, uses it as gateway)
   
@@ -59,6 +59,7 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 
 ![Screenshot 2024-11-27 153449](https://github.com/user-attachments/assets/57e9c630-bc88-4db0-8b98-9b4d9a46209a)
 
+
 - Created a **Domain Admin account** in AD
   
 ![Screenshot 2024-11-27 153716](https://github.com/user-attachments/assets/46e660d0-f92c-4f3f-bd4f-659f67495eeb)
@@ -70,6 +71,7 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 ![Screenshot 2024-11-27 154432](https://github.com/user-attachments/assets/b49ca7dd-2c98-4d9e-ba4a-58f06a72357c)
 
 ![Screenshot 2024-11-27 154719](https://github.com/user-attachments/assets/9f5b6ae8-0e09-4d1c-86dd-ba2d4eb23de5)
+
 
 - Logged out and back in as Domain Admin
 - Installed **RAS/NAT** on DC to allow Client10 VM to access the internet via the DC
