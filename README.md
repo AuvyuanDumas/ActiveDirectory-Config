@@ -11,7 +11,7 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 ## Infrastructure
 - **Public Internet → NIC → DC (Active Directory) → NIC → VMWare Network (Corporate Network) → NIC → Client10 VM (Employee Workstation)**
 - **Default Gateway:** The Domain Controller (DC) is the default gateway.
-- **DC VM:**
+- **DC VM (Windows Server 2019):**
   
 ![Screenshot 2024-11-27 144914](https://github.com/user-attachments/assets/dcfb6c27-b9f8-41f6-9b6e-ceca0c83c8ac)
 
@@ -38,7 +38,7 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
  ![Screenshot 2024-11-27 151004](https://github.com/user-attachments/assets/e253816e-f7f6-414a-ad8e-4144968e18f1)
  
    
-- **Client10 VM:**
+- **Client10 VM (Windows 10):**
   - **Network Adapter 1:** Internal Network (Connects to DC, uses it as gateway)
   
 ![Screenshot 2024-11-27 235444](https://github.com/user-attachments/assets/6aa582d3-6594-4230-90c5-fe33b7fc8b36)
