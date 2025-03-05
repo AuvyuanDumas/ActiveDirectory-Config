@@ -121,6 +121,9 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 
 
 ## Active Directory User Management via PowerShell
+- Used PowerShell scripts to create and manage **1,000+ users** in AD
+- Provisioned and assigned user accounts to Organizational Units (OUs)
+- Configured user policies and group memberships through AD
 
 ![image](https://github.com/user-attachments/assets/ca9268ec-1bdb-4c10-86f9-1fdc5402dc95)
 
@@ -128,9 +131,6 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 
 ![image](https://github.com/user-attachments/assets/b840554c-746c-4e69-bc1b-9f03ea698cbc)
 
-- Used PowerShell scripts to create and manage **1,000+ users** in AD
-- Provisioned and assigned user accounts to Organizational Units (OUs)
-- Configured user policies and group memberships through AD
 
 ## Summary
 - **Client10 VM (Windows 10 Employee Workstation)** uses the **VMWare Network (Corporate Network)** and connects to the **DC (Active Directory)** as its **default gateway**. 
