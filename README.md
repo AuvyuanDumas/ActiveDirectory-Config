@@ -133,9 +133,26 @@ This project sets up a lab environment using Oracle VirtualBox with Windows Serv
 
 
 ## Summary
-- **Client10 VM (Windows 10 Employee Workstation)** uses the **VMWare Network (Corporate Network)** and connects to the **DC (Active Directory)** as its **default gateway**. 
+- **Client10 VM (Windows 10 Employee Workstation)** uses the **VMWare Network (Corporate Network)** and connects to the **DC (Active Directory)** as its **default gateway**.
+  
+ ![Screenshot 2024-11-28 003142](https://github.com/user-attachments/assets/cce1f24c-5d50-4889-97fc-f9e8ae37ec14)
+  
+ ![Screenshot 2024-11-28 003426](https://github.com/user-attachments/assets/80ebba03-248b-44c5-8e1c-8685f5afae40)
+
+ ![Screenshot 2024-11-28 003638](https://github.com/user-attachments/assets/6b550070-e7c7-4265-ad24-f3d1f80ba072)
+
+ ![Screenshot 2024-11-28 003743](https://github.com/user-attachments/assets/dc486db0-594b-4add-8aee-065cb93654a2)
+
+ ![Screenshot 2024-11-28 004011](https://github.com/user-attachments/assets/fa236698-0d78-47d7-9247-ca7de1f4b22e)
+
+ ![Screenshot 2024-11-28 004150](https://github.com/user-attachments/assets/94b02526-c93b-4d06-8aa3-e6c0d00b9760)
+
+ ![Screenshot 2024-11-28 004347](https://github.com/user-attachments/assets/de4897f5-0a5d-408a-8094-b71aa992b4f9)
+
+ ![Screenshot 2024-11-28 004426](https://github.com/user-attachments/assets/e32cae33-6fb3-490d-a9ff-65975c49d6af)
+
+
 - **DHCP and RAS/NAT** ensure network functionality and internet access for internal users.
 - **PowerShell automation** efficiently manages large-scale user provisioning in AD.
 
 This project replicates a real-world enterprise environment with centralized user management and controlled network access.
-
